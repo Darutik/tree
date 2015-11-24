@@ -1,0 +1,25 @@
+#Concepto, tema principal
+	>entrada de texto 1
+	>entrada de texto 2
+
+#Concepto2
+	>Definicion
+	-linea nueva dentro de Definicion, por ejemplo
+	>#Concepto, tema principal<entrada relacionada con #Concepto, tema principal, pero dentro de #Concepto2
+	#concepto3
+		>este concepto entra dentro de #Concepto2
+			*Esto
+			*son
+			*entradas
+			*de una
+			*lista
+		>se le puede dar formato mediante "*123<texto" o "*abc<texto"
+		-si no, será una lista de puntos
+
+&nombre_separador
+(& es un separador, y este texto un comentario en linea sin textos)
+(los separadores puede tener nombre, para clasificar "secciones" dentro de un documento)
+
+#abcd
+	.esta es una entrada oculta
+	>una entrada asi "/media/user/music/santa_maria.ogg" indica un archivo, probablemente multimedia.
